@@ -17,11 +17,11 @@ function AddButton({ onClick }) {
         padding: "0 10px",
         borderRadius: "10px",
         cursor: "pointer",
-        transition: "transform 0.2s ease, box-shadow 0.2s ease",
+        transition: "transform 0.2s ease ",
       }}
       onMouseEnter={e => {
-        e.currentTarget.style.transform = "scale(1.05)";
-        e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)";
+        e.currentTarget.style.transform = "scale(1.11)";
+        
       }}
       onMouseLeave={e => {
         e.currentTarget.style.transform = "scale(1)";
