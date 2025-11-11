@@ -8,22 +8,21 @@ function DoneBtn({ onClick }) {
                 flexDirection: "column",
                 alignItems: "center",
                 backgroundColor: "none",
-                // color: "#fff",
+                color: "#6f9e58ff",
                 border: "none",
                 width: "50px",
                 borderRadius: "10px",
                 cursor: "pointer",
+                backgroundColor: "white",
                 // transition: "transform 0.2s ease",
             }}
             onMouseEnter={e => {
                 e.currentTarget.style.transform = "scale(1.11)";
-                e.currentTarget.style.backgroundColor = "#8cbf72ff";
                 
             }}
             onMouseLeave={e => {
                 e.currentTarget.style.transform = "scale(1)";
                 e.currentTarget.style.boxShadow = "none";
-                e.currentTarget.style.backgroundColor = "#b6d8a5ff";
             }}
         >
             <FaRegCheckCircle size={18} />

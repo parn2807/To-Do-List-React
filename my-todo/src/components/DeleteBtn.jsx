@@ -12,16 +12,15 @@ function DeleteBtn({ onClick }) {
                 alignItems: "center",
                 borderRadius: "10px",
                 width: "50px",
-                backgroundColor: "none",
+                backgroundColor: "white",
+                color:"#d66161ff",
             }}
             onMouseEnter={e => {
                 e.currentTarget.style.transform = "scale(1.11)";
-                e.currentTarget.style.backgroundColor = "#eb8181ff"
             }}
             onMouseLeave={e => {
                 e.currentTarget.style.transform = "scale(1)";
                 e.currentTarget.style.boxShadow = "none";
-                e.currentTarget.style.backgroundColor = "#ffffffff"
             }}
 
         >
